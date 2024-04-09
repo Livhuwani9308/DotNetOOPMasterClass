@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EncapsulationDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab520e0388df73fa362d003436f2ca495d117af7")]
 [assembly: System.Reflection.AssemblyProductAttribute("EncapsulationDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EncapsulationDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
