@@ -9,9 +9,9 @@
             Square square = new(10);
 
             string output =
-                $"===================================\n" +
+                $"=================================\n" +
                 $"Abstraction Demo\n" +
-                $"===================================\n" +
+                $"=================================\n" +
                 $"Calculation for triangle: {triangle.Area()} cm\n" +
                 $"Calculation for circle: {Math.Round(circle.Area(), 2)} cm\n" +
                 $"Calculation fro square: {square.Area()} cm";
