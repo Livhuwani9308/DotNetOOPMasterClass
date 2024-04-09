@@ -16,9 +16,9 @@
             var orderShipping2 = orderProcessor.ProcessOrder(order2, expressShipping);
 
             var output =
-                $"=================================\n" +
+                $"===========================\n" +
                 $"Open/Closed Principle Demo\n" +
-                $"=================================\n" +
+                $"===========================\n" +
                 $"Order 1:\nTotal: R {order1.TotalAmount:0.0}\nShipping Fee: R {orderShipping1:0.0}\n\n" +
                 $"Order 2:\nTotal: R {order2.TotalAmount:0.0}\nShipping Fee: R {orderShipping2:0.0}\n";
 
