@@ -13,9 +13,9 @@
                 $"===================================\n" +
                 $"Liskov Substitution Principle Demo\n" +
                 $"===================================\n" +
-                $"Role 1:\n" +
+                $"Employee 1:\n" +
                 $"{hr.AssignRole(developer)}\n\n" +
-                $"Role 2:\n" +
+                $"Employee 2:\n" +
                 $"{hr.AssignRole(manager)}";
 
             Console.WriteLine(output);
@@ -37,7 +37,7 @@
 
         public override string PerformRoleSpecificTask()
         {
-            return "Writing code";
+            return "Writing code.";
         }
     }
 
@@ -50,7 +50,7 @@
 
         public override string PerformRoleSpecificTask()
         {
-            return "Managing the team";
+            return "Managing the team.";
         }
     }
 

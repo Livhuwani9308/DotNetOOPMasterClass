@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Exaze\\Source\\Repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj": {}
+    "C:\\Users\\Exaze\\source\\repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Exaze\\Source\\Repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj": {
+    "C:\\Users\\Exaze\\source\\repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Exaze\\Source\\Repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Exaze\\source\\repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj",
         "projectName": "AbstractionDemo",
-        "projectPath": "C:\\Users\\Exaze\\Source\\Repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj",
+        "projectPath": "C:\\Users\\Exaze\\source\\repos\\DotNetOOPMasterClass\\AbstractionDemo\\AbstractionDemo.csproj",
         "packagesPath": "C:\\Users\\Exaze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Exaze\\Source\\Repos\\DotNetOOPMasterClass\\AbstractionDemo\\obj\\",
+        "outputPath": "C:\\Users\\Exaze\\source\\repos\\DotNetOOPMasterClass\\AbstractionDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
