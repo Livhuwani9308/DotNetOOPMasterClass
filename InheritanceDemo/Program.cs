@@ -4,7 +4,29 @@
     {
         public static void Main()
         {
-            Employee employee = new()
+            var employeeObject = GetEmployee();
+
+            string printEmployeeObject = PrintEmployeeDetails(employeeObject);
+
+            Console.WriteLine(printEmployeeObject);
+        }
+
+        public static string PrintEmployeeDetails(Employee obj)
+        {
+            return
+                $"=============================\n" +
+                $"Inheritance Demo\n" +
+                $"=============================\n" +
+                $"First Name: {obj.FirstName}\n" +
+                $"Last Name: {obj.LastName}\n" +
+                $"Employee ID: {obj.EmployeeId}\n" +
+                $"Company Name: {obj.CompanyName}\n" +
+                $"Employee Role: {obj.Role}";
+        }
+
+        public static Employee GetEmployee()
+        {
+            return new()
             {
                 FirstName = "John",
                 LastName = "Doe",
@@ -12,28 +34,16 @@
                 CompanyName = "ABC Solutions",
                 Role = "Developer"
             };
-
-            string output =
-                $"=============================\n" +
-                $"Inheritance Demo\n" +
-                $"=============================\n" +
-                $"First Name: {employee.FirstName}\n" +
-                $"Last Name: {employee.LastName}\n" +
-                $"Employee ID: {employee.EmployeeId}\n" +
-                $"Company Name: {employee.CompanyName}\n" +
-                $"Employee Role: {employee.Role}";
-
-            Console.WriteLine(output);
         }
     }
 
-    class Person
+    public class Person
     {
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
     }
 
-    class Employee : Person
+    public class Employee : Person
     {
         public int EmployeeId { get; set; }
         public string CompanyName { get; set; } = string.Empty;
