@@ -4,14 +4,19 @@
     {
         public static void Main()
         {
-            Encapsulation obj = new()
+            var userObject = GetUserDetails();
+
+            Console.WriteLine(userObject.PrintUserDetails());
+        }
+
+        public static Encapsulation GetUserDetails()
+        {
+            return new()
             {
                 FirstName = "John",
                 LastName = "Doe",
                 Age = 33
             };
-
-            Console.WriteLine(obj.PrintUserDetails());
         }
     }
 
@@ -41,7 +46,13 @@
 
         public string PrintUserDetails()
         {
-            return string.Format($"First Name: {FirstName}\nLast Name: {LastName}\nAge: {Age}");
+            return
+                $"===================\n" +
+                $"Encapsulation Demo\n" +
+                $"===================\n" +
+                $"First Name: {FirstName}\n" +
+                $"Last Name: {LastName}\n" +
+                $"Age: {Age}";
         }
     }
 }
