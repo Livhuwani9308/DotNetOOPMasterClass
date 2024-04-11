@@ -6,12 +6,7 @@
         {
             Printer printer = new();
 
-            SalaryModel salaryModel = new()
-            {
-                Salary = 33000,
-                Rate = 20,
-                Overtime = 32
-            };
+            var salaryModel = GetSalaryModel();
 
             var programmingHistory = printer.Print(1950);
 
@@ -20,6 +15,16 @@
             var salaryDisplay = printer.Print(salaryModel);
 
             Console.WriteLine(printer.Print(programmingHistory, famousQuote, salaryDisplay));
+        }
+
+        public static SalaryModel GetSalaryModel()
+        {
+            return new()
+            {
+                Salary = 33000,
+                Rate = 20,
+                Overtime = 32
+            };
         }
     }
 
